@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="formulaire.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Document</title>
+  </head>
+  <body id="body2">
+    <header id="headerr">
+        <div class="logo-container">
+            <img src="mindbloom.png" width="115" id="logo" alt="Logo Mindbloom">
+             <span class="logo-title">Mindbloom</span>
+         </div>
+        <nav>
+            <a href="/www/yassin/view/indexhome.html" >Home</a>
+            <a href="../index.html">About</a>
+            <a href="../index.html">Services</a>
+            <a href="../index.html">Formation</a>
+            <a href="formulaire.html">Log in</a>
+                            
+                
+            <a href="../index.html">Contact</a>
+        </nav>
+    </header>
+<div class="container" id="container">
+
+    <div class="form-container sign-up">
+        <form method="POST" action="connexion.php">
+            <h1>Create Account</h1>
+            
+            <h3>Insert Your :</h3>
+
+            <input type="text" placeholder="Name and Last name" id="name" name="name">
+            <p id="name11"> </p>
+            <div class="gender">
+                <label>
+                    <input type="radio" id="female" name="gender" value="F"> Female
+                </label>
+                <label>
+                    <input type="radio" id="male" name="gender" value="M"> Male
+                </label>
+            </div>
+            <input type="date" placeholder="date" name="date">
+            <input type="number" placeholder="Phone Number" id="phonenum" name="phone">
+            <p id="phone"></p>
+            <input type="text" placeholder="Email" id="email2" name="email">
+            <p id="p2"></p>
+            <input type="password" placeholder="Create Password" id="password0" name="password">
+            <p id="p4"></p>
+            <input type="password" placeholder="Confirm Password" id="password2">
+            <p id="p8"></p>
+            
+            <button type="submit" id="b2">Sign Up</button>
+
+        </form> 
+    </div>
+
+    <div class="form-container sign-in">
+        <form method="POST" action="signin.php"> 
+            <h1>Sign in </h1>
+            
+            <input type="text" placeholder="Email" id="email1" name="email1">
+            <p id="p1"></p>
+            <input type="password" placeholder="Password" id="password1" name="password1">
+            <p id="p3"></p>
+            <a href="forgetpass.php">Forgot Your Password?</a>
+            <button type="submit" id="b1">Sign in</button>
+        </form> 
+    </div> 
+
+    <div class="toggle-container"> 
+        <div class="toggle"> 
+            <div class="toggle-panel toggle-left">
+                <h1>Welcome Back!</h1>
+                <p>I already have an account</p>
+                <button class="hidden" id="login" type="button" >Sign In</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>Hello There!</h1>
+                <p>I don't have an account</p>
+                <button class="hidden" id="register" type="button">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<script src="formulaire.js" ></script>
+<script src="../view/formulaire/index.js"></script>
+</body>
+</html>

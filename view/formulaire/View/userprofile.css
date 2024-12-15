@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: #d2ffc9;
+    background: linear-gradient(to right, #e2e2e2, #c9fffd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 106vh;
+}
+.container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px  #20F0E8(0, 0, 0, 0.35);
+    position: relative; 
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    min-height: 600px;
+    margin: 20px 0;
+    margin-top: 140px;
+    margin-bottom: 40px ;
+ 
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+   
+}
+.container a {
+    color: #30b7bb;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 -5px;
+
+}
+
+.container button {
+    background-color:  #30b7bb;
+    color: #fff;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container input {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+.form-container {
+    position: absolute;
+    top: -60px;
+    height: 100%;
+    left:25%;
+}
+
+.container form {
+    background-color: #fff;
+    display: flex;
+    align-items: left;
+    justify-content:center;
+    flex-direction: column;
+    padding: 0 60px;
+    height: 100%;
+
+}
+
+.sign-in {
+    margin-top: 15px;
+    margin-right: 20px;
+    right: 0;
+    width: 40%;
+    z-index: 2;
+}
+
+#usn,#em,#phone
+{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    float: left;
+    color: #333;
+}
+
+.user-admin {
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    padding: 0;
+    width: 100%;
+    justify-content: left;
+    margin-left: 80px;
+
+}
+.user-admin label  { 
+    display: flex;
+    align-items: left;
+    cursor: pointer;
+    display: block;
+}
+
+.user-admin  input[type="radio"] {
+    margin-right: -20px;
+    accent-color: #00ffff;
+    transform: scale(1.1);
+    
+}
+#adminkey
+{
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 20%;
+    display: none;
+}
+
+#username
+{
+
+    margin-left: 100px;
+}
+#b1
+{ 
+    margin-top: 25px;
+}
+#passmod
+{
+
+    position: fixed; /* Fixed positioning relative to the viewport */
+    top: 150px;        /* 20px from the top of the page */
+    right: 310px;      /* 20px from the right side of the page */
+    width: 20%;
+    z-index: 1000;
+    display: none;
+    margin-top: 85px;
+}
+#ppassmod
+{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    float: left;
+    color: #333;
+    
+    
+}
+#newpass
+{
+
+    position: fixed; 
+    top: 150px;        
+    right: 310px;      
+    width: 20%;
+    z-index: 1000;
+    display: none;
+    margin-top: 85px;
+}
+#pnewpass
+{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    float: left;
+    color: #333;
+}
+#img
+{
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+#star
+{
+    margin-left: 72px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    width: 150px; /* Example width */
+    height: auto;
+}
+h1
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
